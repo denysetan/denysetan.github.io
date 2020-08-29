@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav1.png">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Denyse Home</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<!-- Start Header Area -->
+	<header id="header">
+		<div class="container main-menu">
+			<div class="row align-items-center d-flex">
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li class=""><a class="active" href="index.html">Home</a></li>
+						<li><a href="index.html#about">About</a></li>
+						<li><a href="index.html#work">Work</a></li>
+						<li><a href="index.html#skill">Skills</a></li>
+						<li><a href="index.html#project">Projects</a></li>
+						<li><a href="index.html#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- End Header Area -->
+
+	<!-- start banner Area -->
+	<section class="banner-area relative">
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center">
+				<div class="about-content col-lg-12">
+					<h1 class="text-white">
+						Projects
+					</h1>
+					<p class="link-nav">
+						<span class="box">
+							<a href="index.html">Home </a>
+							<a href="index.html#project">Back</a></p>
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+	<!-- Start Projects Area -->
+	<section class="work-area section-gap-top section-gap-bottom-90" id="work">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-end mb-80">
+				<div class="col-lg-10">
+					<div class="section-title">
+						<h2>GovTech Data Science Internship Experience</h2>
+						
+						7 August 2020 marks the end of my 14 weeks internship at GovTech Singapore. I am humbled to be given the opportunity to intern as a data scientist in the National Digital Identity, Enterprise Data Hub team. 
+						<br/><br/>
+						During my internship duration, I was entrusted with 2 side projects and 1 main project:
+						<br/><br/>
+						
+						1. SafeEntry Visualisations<br/>
+						2. Sentiment Anlaysis Model Enhancement<br/>
+						3. Fraud Detection Model<br/><br/>
+
+						<h3>1. SafeEntry Visualisations</h3>
+						Into the first 2 weeks of my internship, I was introduced to the SafeEntry Project. Back then, SafeEntry was still relatively new and many people did not know much about it. Hence, I was tasked to perform visualisations to gain insights into the usage patterns of safe entry, as well as the adoption rates for essential and non-essential services. As I recently took up a course on tableau, it is exciting to apply this skill to a real-life project. I also tried doing up a mini dashboard for it. After presenting my visualisations and findings to Shao Quan and Judi, I was introduced to some of the challenges they were currently facing, and I was tasked to brainstorm on how we can further fine-tune the data to get more insights. There was also the implementation issue, on how safe entry can be adopted and measured in public spaces such as Parks and Malls.
+						<br/><br/>	
+						<h3>2. Sentiment Anlaysis Model Enhancement</h3>
+						After the Safe Entry Project, I was given a new project that lasted for around 2 weeks. I had to take a look at the current text analysis code, and think of ways on how I can enhance the current sentiment analysis model of the SPIS data. For this project, I added 2 new lexicons - a form of dictionary, on top of the current AFINN, to give a better accuracy of the sentiments of the reviews. For this project, I learnt a few concepts, mainly the 3 lexicons - Vader, TextBlob and Afinn, and understand the math behind it. I also tried out emotion analysis using IBM Watson tone analyzer, and lastly I was also introduced to the concept of ensemble learning. I really appreciate SQ’s effort to explain ensemble learning to me on the day when I’m back in office.
+						<br/><br/>	
+						<h3>3. Fraud Detection Model</h3>
+						Once circuit breaker is over, I had to go back to office to get the data and that’s when I can start working on my main project, which is to build a fraud detection model to derive a risk scoring for each company.
+						<br/><br/>	
+						Prior to this project, SQ gave me the Unicorn Project codes done by the previous intern. That served as an introduction on the scale of the project that I was about to expect, and how big the datasets were.
+						<br/><br/>	
+						I will give a high level overview of my model’s methodology. As for all data science projects, data preprocessing is a very crucial step and cannot be avoided. I took a fair bit of time trying to understand the data that I have and referred to the EDH dictionary. I had to also understand the problem statement to get to know what kind of data would be relevant for the analysis. With that, I retrieved the columns based on my own judgment and processed the data by combining different data frames together and dropping rows.
+						<br/><br/>	
+						Once preprocessing is done, I performed DBSCAN - a form of clustering, for each industry, to cluster the data into different segments. Before using DBSCAN, I also tried out other fraud detection models such as Self Organising Maps and K-means clustering.
+						<br/><br/>	
+						Once clustering is done, I assigned the data a score based on the cluster output, and trained my regression model to predict the fraud score. I also proceed to evaluate the accuracy of my regression equation. Aside from the regression model, I also attempted using decision tree, but the output wasn’t very good.
+						<br/><br/>	
+						Throughout this project, I’ve iterated through this process multiple times, when I’m at the regression model, I would go back to clustering or data preprocessing steps to better improve my model.
+						<br/><br/>	
+						Once my model is finalised, I proceed to create a function that can calculate the fraud score for any given data.
+						<br/><br/>	
+						<h4>Takeaways</h4>
+						For this project, I have a couple of takeaways. 
+						<br/><br/>	
+						Firstly, for any given data science project, there will definitely be differing outputs. Everyone has a different interpretation of what data is relevant for a problem statement, and what kind of Machine Learning models they can use. Hence, it really depends on one’s own judgment to decide on the columns that are needed, as long as you are able to justify it.
+						<br/><br/>	
+						Secondly, data understanding and preprocessing steps are no doubt very important. It is crucial for us to know what data we’re working with and process it to fit the context.
+						<br/><br/>
+						Next, it is also important to understand the business context. Given that it was my first time working with a problem relating to suspicious companies, I am initially unsure of what data is needed for the analysis. I thus read up articles and watch some videos to get to know more about the context, and hence decide on which columns to use.
+						<br/><br/>	
+						<h3>Overall Reflections</h3>
+						I will share my overall reflections for this internship.
+						<br/><br/>	
+						Firstly, my internship was a WFH experience. I was bummed that I could not get to experience working in an office like and have the ‘full’ experience after Circuit Breaker. However, I was also able to work at the comfort of my own home and not have to travel. This internship taught me to be very independent as I was given less guidance compared to face to face interactions. I had to google a lot of things and explore on my own. I have to also be disciplined and draw the line between work and rest time.
+						<br/><br/>	
+						Secondly, I got to know that the field of data science is very vast. There’s a lot of concepts out there, hence it is very important to always have the mindset of continuous learning and grasp new concepts in this career.
+						<br/><br/>	
+						Thirdly, communication is also very important. Being a more technical person, it is crucial to be able to convey messages from a non-technical point of view. Ultimately, what we are doing is to help the business.
+						<br/><br/>	
+						Lastly, I enjoyed my experience working at GovTech, seeing the projects that the other interns and I have done, it is no doubt very meaningful as the projects in one way or another will contribute to Singapore's move to become a smarter nation.
+						<br/><br/>	
+						<img class="image img-fluid" src="img/work/govtech.jpg" alt="">
+						<br/><br/>
+						Here’s a picture of my team's dinner, missing Evelyn. I would like to thank my team for being so encouraging and supportive throughout my internship period, and for giving me numerous advice on career development. To my direct supervisors Judi and Shao Quan, I would especially like to thank them for taking time out of their busy schedules to guide me in my projects and sharing with me all the insightful knowledge. Lastly, I would like to thank my HR in-charge, Cherine, for being so helpful throughout my internship experience, and making all the admin matters very seamless :)
+						<br/><br/>
+						Summer'20 was definitely well spent, and I am very thankful for all the opportunities that I was given :")
+						
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- End Projects Area -->
+
+
+
+	<!-- start footer Area -->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="footer-top flex-column">
+						<div class="footer-social">
+							<a href="https://www.linkedin.com/in/denysetan/"><i class="fa fa-linkedin-square"></i></a>
+							<a href="https://github.com/denysetan"><i class="fa fa-github"></i></a>
+							<a href="https://medium.com/@denyse.tlx"><i class="fa fa-medium"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row footer-bottom justify-content-center">
+				<p class="col-lg-8 col-sm-12 footer-text">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i><a href="https://colorlib.com" target="_blank"> Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer Area -->
+
+	<!-- ####################### Start Scroll to Top Area ####################### -->
+	<div id="back-top">
+		<a title="Go to Top" href="#">
+			<i class="lnr lnr-arrow-up"></i>
+		</a>
+	</div>
+	<!-- ####################### End Scroll to Top Area ####################### -->
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/mn-accordion.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/jquery.circlechart.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

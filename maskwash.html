@@ -15,7 +15,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Portfolio</title>
+	<title>Denyse Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
@@ -35,15 +35,17 @@
 <body>
 
 	<!-- Start Header Area -->
-	<header id="header" class="dark">
+	<header id="header">
 		<div class="container main-menu">
 			<div class="row align-items-center d-flex">
-				<nav id="nav-menu-container" class="ml-auto">
+				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li class=""><a class="active" href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="index.html#about">About</a></li>
+						<li><a href="index.html#work">Work</a></li>
+						<li><a href="index.html#skill">Skills</a></li>
+						<li><a href="index.html#project">Projects</a></li>
+						<li><a href="index.html#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -57,12 +59,12 @@
 			<div class="row d-flex align-items-center justify-content-center">
 				<div class="about-content col-lg-12">
 					<h1 class="text-white">
-						Portfolio
+						Projects
 					</h1>
 					<p class="link-nav">
 						<span class="box">
 							<a href="index.html">Home </a>
-							<a href="portfolio.html">Portfolio</a></p>
+							<a href="index.html#project">Back</a></p>
 					</span>
 				</div>
 			</div>
@@ -73,55 +75,37 @@
 	<!-- Start Projects Area -->
 	<section class="work-area section-gap-top section-gap-bottom-90" id="work">
 		<div class="container">
-			<div class="row d-flex justify-content-between align-items-end mb-80">
-				<div class="col-lg-6">
+			<div class="row d-flex justify-content-center align-items-end mb-80">
+				<div class="col-lg-10">
 					<div class="section-title">
-                        <h2>Webcam Motion Detector</h2>
-                        For this project, I am experimenting on applying the python package 'opencv' to do a motion detector with my computer's webcam.
-                        (explain how it works)<br><br>
-
-                        Link to source code : github link
+						<h2>Mask Wash Counter Telegram Bot</h2>
+						
+						Ever since wearing mask is made mandatory in Singapore, an issue surfaced in my day to day life - keeping track of the number of
+						times I've washed my masks, given that most reusable masks can wash up to 30 times. To tackle this issue, I've decided to devise 
+						a simple Telegram Bot that can effectively log and track the number of times I've washed my masks. 
+						</br></br>
+						I've planned on using Telegram as the channel to log my counts as I spend a large amount of time on this social platform everyday,
+						making logging very convenient. I used Google Spreadsheet as it allows the creation of a simple and light weight web service. I was
+						inspired to do this project after coming across this <a href="https://medium.com/@mars_escobin/telegram-bot-to-track-your-expenses-in-a-spreadsheet-d07393513bd5">article</a> 
+						on Medium by Mars Escobin. I'm very thankful for her guide which allows me to successfully build the bot.
+						</br></br>
+					
+						Here's a quick run through of the bot:
+						</br></br>
+								
 					</div>
+					<div style="text-align:center;">
+						<video width='50%' text-align='center' controls>
+							<source src="img/work/maskwash.mp4" type="video/mp4">
+						</video>
+					</div>
+
 				</div>
 			</div>
 
-
-            <video width="700" height="400" controls>
-                <source src="img/work/webcam.mp4" type="video/mp4">
-            </video>
 		</div>
 	</section>
 	<!-- End Projects Area -->
-
-	<!-- Start Contact Area -->
-	<section class="contact-area section-gap" id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="contact-title">
-						<h2>Contact Me</h2>
-						<p>Feel free to contact me at: </p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row mt-80">
-				<div class="col-lg-6 col-md-6">
-					<div class="contact-box">
-						<h4>+65 81631528</h4>
-					</div>
-				</div>
-
-				<div class="col-lg-6 col-md-6">
-					<div class="contact-box">
-						<h4>denyse.tlx@gmail.com</h4>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</section>
-	<!-- End Contact Area -->
 
 
 
